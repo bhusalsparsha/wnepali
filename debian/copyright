@@ -1,0 +1,57 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: wnepali
+Upstream-Contact: Sparsha Bhusal bhusal.sparsha.1@proton.me
+Source: https://github.com/bhusalsparsha/wnepali
+
+Files: *
+Copyright: 2025-2026 Sparsha Bhusal
+License: LGPL-2.1
+
+Files: src/ne_NP.dic src/ne_NP.aff
+Copyright: 2006 Madan Puraskar Pustakalaya
+License: LGPL-2.1
+Comment: Original Nepali SpellChecking Dictionary, Release 1.1
+ (2006-10-17), Hunspell root words and affix rules. Contributors:
+ Amar Gurung, Bal Krishna Bal, Basanta Karki, Basanta Shrestha,
+ Ishwor Sharma, Laxmi Prasad Khatiwada, Paras Pradhan, Prajol
+ Shrestha, Subir Pradhanang. Unmunched and substantially expanded
+ to produce the wnepali wordlist.
+
+Files: src/README_ne_NP.txt src/README_th_ne_NP_v2.txt
+Copyright: 2006 Madan Puraskar Pustakalaya
+License: LGPL-2.1
+Comment: Original upstream README files documenting the Nepali
+ SpellChecking Dictionary and Nepali Thesaurus, Release 1.1
+ (2006-10-17), preserved as provided by the original compilers.
+
+Files: src/names.txt
+Copyright: 2025-2026 Sparsha Bhusal
+License: LGPL-2.1
+Comment: Nepali proper nouns and vocabulary entries compiled by the
+ packager. Includes personal names, surnames, geographical names,
+ administrative names, medicinal plant names, and other common
+ terms. Sources include general knowledge, educational materials,
+ and public administrative information. Base entries were manually
+ reviewed; grammatical (suffixed) forms were then mechanically
+ derived from reviewed base entries via automated affix expansion.
+
+Files: src/unmunch_ne.py src/process_names.py
+Copyright: 2025-2026 Sparsha Bhusal
+License: LGPL-2.1
+
+Files: debian/*
+Copyright: 2025-2026 Sparsha Bhusal
+License: LGPL-2.1
+
+License: LGPL-2.1
+ This package is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License version 2.1 as published by the Free Software Foundation.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ .
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License version 2.1 can be found in
+ /usr/share/common-licenses/LGPL-2.1.
