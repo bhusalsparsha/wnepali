@@ -2,8 +2,10 @@ Source: wnepali
 Section: text
 Priority: optional
 Maintainer: Sparsha Bhusal <bhusal.sparsha.1@proton.me>
-Build-Depends: debhelper-compat (= 13)
-Standards-Version: 4.7.0
+Build-Depends: 
+ debhelper-compat (= 14),
+ dh-sequence-single-binary
+Standards-Version: 4.7.4
 Homepage: https://github.com/bhusalsparsha/wnepali
 Vcs-Browser: https://github.com/bhusalsparsha/wnepali
 Vcs-Git: https://github.com/bhusalsparsha/wnepali.git
