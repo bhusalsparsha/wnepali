@@ -1,5 +1,9 @@
 wnepali (1.0-1) unstable; urgency=medium
 
-  * Initial release. (Closes: #1142885)
+  * Initial release (Closes: #1142885)
+  * Address sponsor review feedback:
+    - Convert to 3.0 (quilt) source format with v5 watch file.
+    - Update Standards-Version to 4.7.4 and debhelper-compat to 14.
+    - Add gbp, Salsa CI, and upstream metadata configurations.
 
- -- Sparsha Bhusal <bhusal.sparsha.1@proton.me>  Tue, 28 Jul 2026 09:25:16 +0545
+ -- Sparsha Bhusal <bhusal.sparsha.1@proton.me>  Tue, 28 Jul 2026 17:31:55 +0545

@@ -2,7 +2,7 @@ Source: wnepali
 Section: text
 Priority: optional
 Maintainer: Sparsha Bhusal <bhusal.sparsha.1@proton.me>
-Build-Depends: 
+Build-Depends:
  debhelper-compat (= 14),
  dh-sequence-single-binary
 Standards-Version: 4.7.4
