@@ -7,8 +7,8 @@ Build-Depends:
  dh-sequence-single-binary
 Standards-Version: 4.7.4
 Homepage: https://github.com/bhusalsparsha/wnepali
-Vcs-Browser: https://github.com/bhusalsparsha/wnepali
-Vcs-Git: https://github.com/bhusalsparsha/wnepali.git
+Vcs-Browser: https://salsa.debian.org/bhusalsparsha/wnepali
+Vcs-Git: https://salsa.debian.org/bhusalsparsha/wnepali.git
 
 Package: wnepali
 Architecture: all

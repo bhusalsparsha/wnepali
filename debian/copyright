@@ -7,7 +7,9 @@ Files: *
 Copyright: 2025-2026 Sparsha Bhusal <bhusal.sparsha.1@proton.me>
 License: LGPL-2.1
 
-Files: src/ne_NP.aff src/ne_NP.dic
+Files:
+ src/ne_NP.aff
+ src/ne_NP.dic
 Copyright: 2006 Madan Puraskar Pustakalaya
 License: LGPL-2.1
 Comment: Original Nepali SpellChecking Dictionary, Release 1.1
@@ -17,7 +19,9 @@ Comment: Original Nepali SpellChecking Dictionary, Release 1.1
  Shrestha, Subir Pradhanang. Unmunched and substantially expanded
  to produce the wnepali wordlist.
 
-Files: src/README_ne_NP.txt src/README_th_ne_NP_v2.txt
+Files:
+ src/README_ne_NP.txt
+ src/README_th_ne_NP_v2.txt
 Copyright: 2006 Madan Puraskar Pustakalaya
 License: LGPL-2.1
 Comment: Original upstream README files documenting the Nepali
@@ -35,7 +39,9 @@ Comment: Nepali proper nouns and vocabulary entries compiled by the
  reviewed; grammatical (suffixed) forms were then mechanically
  derived from reviewed base entries via automated affix expansion.
 
-Files: src/process_names.py src/unmunch_ne.py
+Files:
+ src/process_names.py
+ src/unmunch_ne.py
 Copyright: 2025-2026 Sparsha Bhusal <bhusal.sparsha.1@proton.me>
 License: LGPL-2.1
 
